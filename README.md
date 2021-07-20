@@ -4,8 +4,8 @@
 
 ## 参照
 
-### HTML&CSS
-- [HTML&CSSのリファレンス](https://developer.mozilla.org/ja/docs/Web)
+### HTML&CSSのリファレンス
+- [MDN Web Docs](https://developer.mozilla.org/ja/docs/Web)
 
-### vs code
+### Visual Studio Codeの使い方
 - [ショートカットキー](https://qiita.com/12345/items/64f4372fbca041e949d0)
