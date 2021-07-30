@@ -7,5 +7,8 @@
 ### HTML&CSSのリファレンス
 - [MDN Web Docs](https://developer.mozilla.org/ja/docs/Web)
 
+##  TeraPadの使い方
+- [TeraPadの初期文字コード・改行コード設定](https://ingwer-design.com/blog/software/terapad-moji.html)
+
 ### Visual Studio Codeの使い方
 - [ショートカットキー](https://qiita.com/12345/items/64f4372fbca041e949d0)
