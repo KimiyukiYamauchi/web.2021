@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+p {
+	color: blue;
+	font-size: 14px;
+}
+.text {
+	color: red;
+	font-size: 14px;
+}
+#recipe-Hamburg {
+	color: aqua;
+	font-size: 12px;
+}
