@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.link:visited {
+	color: blue;
+}
+.link:hover {
+	color: green;
+}
+.link:active {
+	color: orange;
+}
