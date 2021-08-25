@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+div,
+span {
+	background-color: mistyrose;
+}
+.box01 {
+	width: 800px;
+	height: 600px;
+	background-color: mistyrose;
+	background-image: url("img/background-dot.png");
+}
