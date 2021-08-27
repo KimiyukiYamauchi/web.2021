@@ -1,12 +1,60 @@
 @charset "utf-8";
 
+.photo {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
 div,
 span {
 	background-color: mistyrose;
+}
+.text {
+	margin-top: 30px;
+	padding: 20px;
+	/*background-color: #EEEEEE;*/
 }
 .box01 {
 	width: 800px;
 	height: 600px;
 	background-color: mistyrose;
 	background-image: url("img/background-dot.png");
+}
+.box02 {
+	width: 800px;
+	height: 600px;
+	background-color: mistyrose;
+	background-image: url("img/background-dot.png");
+	background-repeat: no-repeat;
+}
+.box03 {
+	width: 800px;
+	height: 600px;
+	background-color: mistyrose;
+	background-image: url("img/background-dot.png");
+	background-repeat: no-repeat;
+	/*background-position: right center;*/
+	/*background-position: 100px 50px;*/
+	/*background-position: center;*/
+	background-position: 100px;
+}
+.box04 {
+	width: 800px;
+	height: 600px;
+	/*background-color: #CCC;
+	background-image: url("img/background-photo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;*/
+	background: #CCC url("img/background-photo.jpg") no-repeat center/cover
+}
+.box05 {
+	width: 800px;
+	height: 600px;
+	background-color: #CCC;
+	background-image: url("img/background-photo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
