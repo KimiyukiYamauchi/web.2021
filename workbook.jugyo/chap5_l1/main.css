@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.container {
+	width: 1000px;
+	background-color: #000000;
+}
 .photo {
 	width: 800px;
 	margin-left: auto;
@@ -11,8 +15,12 @@ span {
 }
 .text {
 	margin-top: 30px;
-	padding: 20px;
-	/*background-color: #EEEEEE;*/
+	background-color: #EEEEEE;
+	border-top: 3px solid blue;
+}
+.child {
+	margin-top: 80px;
+	background-color: yellowgreen;
 }
 .box01 {
 	width: 800px;
