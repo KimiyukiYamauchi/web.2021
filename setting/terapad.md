@@ -9,8 +9,8 @@
   - オートインデント
   - カーソル行に下線を表示
   - 空行のTAB/空白インデント
-  
-<img src="basic.png" alt="基本タブの画面">
+
+![](images/basic.png)
 
 ### [表示]タブ
 
@@ -21,11 +21,11 @@
   - 半角空白
   - 全角空白
 
-<img src="display.png" alt="基本タブの画面">
+![](images/display.png)
 
 ### [文字コード]タブ
 
 - 文字/改行コードを自動認識するにチェックで、
 - [初期文字コード]は「SHIFT-JIS」にします
 
-<img src="code.png" alt="オプションタブの画面">
+![](images/code.png)
