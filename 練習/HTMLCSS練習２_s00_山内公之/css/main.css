@@ -13,6 +13,7 @@ img {
   width: 800px;
 }
 p {
+  font-size: 16px;
   line-height: 1.6;
 }
 em {
@@ -30,9 +31,18 @@ a:hover {
   color: #008000;
 }
 a:active {
-  color: #131212;
+  color: #8b4513;
 }
 #contact {
   font-size: 14px;
   text-align: right;
+}
+address {
+  font-size: 14px;
+  text-align: right;
+  font-style: normal;
+}
+#copy {
+  font-size: 12px;
+  text-align: center;
 }
