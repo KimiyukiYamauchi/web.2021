@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.container {
+  padding: 10px;
+  background-color: beige;
+}
+
+.photo {
+  float: left;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
