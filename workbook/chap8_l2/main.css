@@ -1,0 +1,16 @@
+@charset 'utf-8';
+ol {
+    list-style-type: square;
+}
+
+li {
+    list-style-position: inside;
+}
+
+ul {
+    list-style-image: url("icon.png");
+}
+
+ul li {
+    margin-bottom: 5px;
+}
