@@ -1,0 +1,20 @@
+@charset "utf-8";
+body {
+    padding: 30px;
+    font-family: Serif;
+    writing-mode: vertical-rl;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+ol {
+    margin-top: 1em;
+    padding: 0;
+    list-style: cjk-ideographic;
+}
