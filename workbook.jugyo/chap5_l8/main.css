@@ -5,8 +5,7 @@ body {
 }
 ul {
   display: flex;
-  justify-content: center;
-  align-items: stretch;
+  /* width: 500px; */
   width: 100%;
   margin: 50px auto;
   padding: 0;
@@ -14,14 +13,21 @@ ul {
   border: 1px solid #FFCC00;
 }
 li {
-  width: 50px;
+  flex-grow: 1;
+  width: 150px;
   padding: 40px 0;
+  box-sizing: border-box;
   text-align: center;
   background-color: darkblue;
   border: 1px solid #CC0000;
   color: #FFFFFF;
   list-style: none;
 }
-.big {
-  font-size: 30px;
+
+.item2 {
+  /* flex-grow: 3; */
+  flex-shrink: 3;
 }
+/* .big {
+  font-size: 30px;
+} */
