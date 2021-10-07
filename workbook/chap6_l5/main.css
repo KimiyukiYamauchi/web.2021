@@ -1,57 +1,85 @@
 @charset "utf-8";
 body {
-    margin: 0;
-    background-color: codetblue;
+  margin: 0;
+  background-color: codetblue;
 }
 
 div {
-    width: 440px;
-    margin: 50px auto;
-    padding: 30px;
-    background-color: white;
+  width: 440px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
 }
 
 h1 {
-    font-size: 22px;
-    text-align: center;
+  font-size: 22px;
+  text-align: center;
 }
 
 .button02 {
-    padding: 10px 20px;
-    background-image: linear-gradient(to bottom, #CCC, #FFF, #CCC, #FFF);
-    border: 1px solid #000;
-    border-bottom-width: 3px;
-    font-size: 14px;
+  padding: 10px 20px;
+  background-image: linear-gradient(to bottom, #CCC, #FFF, #CCC, #FFF);
+  border: 1px solid #000;
+  border-bottom-width: 3px;
+  font-size: 14px;
 }
 
 .button03 {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .button04,
 .button05 {
-    padding: 10px 20px;
-    background-color: #CCC;
-    border: none;
-    border-radius: 8px;
-    font-size: 14px;
-    cursor: pointer;
+  padding: 10px 20px;
+  background-color: #CCC;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .button04:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 .button05:hover {
-    background-color: rgba(204, 204, 204, 0.6);
+  background-color: rgba(204, 204, 204, 0.6);
+}
+
+.square {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  border: 1px dotted #000;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
-    padding: 0;
-    background-color: tomato;
-    border-radius: 50px;
+  position: absolute;
+  top: -50%;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  background-color: tomato;
+  border-radius: 50px;
+}
+
+.square2 {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  padding: 0;
+  border: 1px dotted #000;
+}
+
+.box2 {
+  position: absolute;
+  top: -50%;
+  width: 200px;
+  height: 100px;
+  padding: 0;
+  background-color: tomato;
+  border-radius: 50px;
 }
 
 
