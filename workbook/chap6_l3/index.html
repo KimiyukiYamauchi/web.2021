@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>ベースファイル｜HTML&CSS入門ワークブック</title>
   <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-  <form>
+  <!-- <form action="http://192.168.0.235" method="post">
     <p><label for="question">クロックムッシュはどこの国の食べ物？</label></p>
     <p>
       <select name="question" id="question">
@@ -16,18 +18,20 @@
         <option>スペイン</option>
       </select>
     </p>
-  </form>
-  <!-- <form action="">
+    <p><input type="submit" value="送信する"></p>
+  </form> -->
+  <form action="http://192.168.0.235" method="post">
     <p>この中で好きな食べ物をすべてチェックしてください</p>
     <p>
-      <label><input type="checkbox" name="lovefoods" value="サンドイッチ">サンドイッチ</label><br>
-      <label><input type="checkbox" name="lovefoods" value="ハンバーガー">ハンバーガー</label><br>
-      <label><input type="checkbox" name="lovefoods" value="クロックムッシュ">クロックムッシュ</label><br>
-      <label><input type="checkbox" name="lovefoods" value="クロックマダム">クロックマダム</label><br>
-      <label><input type="checkbox" name="lovefoods" value="ホットドッグ">ホットドッグ</label><br>
-      <label><input type="checkbox" name="lovefoods" value="おにぎり">おにぎり</label></p>
-  </form> -->
-<!-- <form>
+      <label><input type="checkbox" name="lovefoods[][]" value="サンドイッチ">サンドイッチ</label><br>
+      <label><input type="checkbox" name="lovefoods[]" value="ハンバーガー">ハンバーガー</label><br>
+      <label><input type="checkbox" name="lovefoods[]" value="クロックムッシュ">クロックムッシュ</label><br>
+      <label><input type="checkbox" name="lovefoods[]" value="クロックマダム">クロックマダム</label><br>
+      <label><input type="checkbox" name="lovefoods[]" value="ホットドッグ">ホットドッグ</label><br>
+      <label><input type="checkbox" name="lovefoods[]" value="おにぎり">おにぎり</label></p>
+    <p><input type="submit" value="送信する"></p>
+  </form>
+  <!-- <form>
   <p>クロックムッシュはどこの国の食べ物？</p>
   <p>
     <input type="radio" name="question" value="イギリス" id="uk" checked> <label for="uk">イギリス</label><br>
@@ -37,4 +41,5 @@
   </p>
 </form> -->
 </body>
+
 </html>
