@@ -13,6 +13,7 @@
 
 ### Visual Studio Codeの使い方
 - [ショートカットキー](https://qiita.com/12345/items/64f4372fbca041e949d0)
+- [emmetのスニペットのチートシート](https://docs.emmet.io/cheat-sheet/)
 
 ### その他のツール
 - [テキスト比較ツール difff<<デュフフ>>](https://difff.jp/)
