@@ -131,9 +131,6 @@ nav ul li a:hover {
 
 /* 「結婚式場のコンセプト」ページ ここから↓ */
 
-
-/* 「結婚式場のコンセプト」ページ ここまで↑ */
-
 .concept_box {
   overflow: hidden;
   margin-bottom: 30px;
@@ -153,6 +150,9 @@ nav ul li a:hover {
 .concept_box p:last-child {
   margin-bottom: 0;
 }
+
+
+/* 「結婚式場のコンセプト」ページ ここまで↑ */
 
 
 /* 「プランのご案内」ページ ここから↓ */
@@ -223,6 +223,33 @@ table tbody tr:nth-child(odd) {
 
 
 /* 「お問い合わせ」ページ ここから↓ */
+
+form p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+form p:nth-last-child(2) {
+  margin-bottom: 7px;
+}
+
+form p:last-child {
+  margin-bottom: 0;
+}
+
+input[type="text"] {
+  width: 200px;
+}
+
+input[type="email"] {
+  width: 300px;
+}
+
+textarea {
+  width: 420px;
+  height: 115px;
+  overflow-y: scroll;
+}
 
 
 /* 「お問い合わせ」ページ ここまで↑ */
