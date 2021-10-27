@@ -123,7 +123,20 @@ nav ul li a:hover {
 /* 「結婚式場のコンセプト」ページ ここまで↑ */
 
 /* 「プランのご案内」ページ ここから↓ */
-
+table {
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 15px;
+  border: 1px solid #6c5f45;
+}
+table tr th:first-child{
+  width: 70px;
+}
+table tbody th,
+table tbody td {
+  vertical-align: top;
+}
 /* 「プランのご案内」ページ ここまで↑ */
 
 /* 「ブライダルフェア」ページ ここから↓ */
