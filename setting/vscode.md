@@ -110,7 +110,7 @@ Ctrl+Shift+Fで整形(フォーマット)が全で可能ですがめんどくさ
       2. Editor:Format On Paste => チェックを入れる
       3. Editor:Format On Save => チェックを入れる
 
-![](images/vs015.PNG)
+![](images/vs015.png)
 
 ### 配色テーマ設定
 1. 《ファイル》から《基本設定》にロールオーバーし、《配色テーマ》を選択
